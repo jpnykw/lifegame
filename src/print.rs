@@ -5,8 +5,9 @@ pub fn new(
     for parent in stage {
         let mut text = String::new();
         for child in parent {
-            text = format!("{}{}", text, if child == &true { "■" } else { "□" });
+            text = format!("{}{}", text, if child == &true { "#" } else { "." });
         }
         println!("{}", text);
     }
 }
+

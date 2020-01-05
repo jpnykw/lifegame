@@ -4,3 +4,4 @@ pub fn new(
 ) -> Vec<Vec<bool>> {
     vec![vec![false; width]; height]
 }
+
